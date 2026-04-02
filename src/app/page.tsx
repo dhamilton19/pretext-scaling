@@ -7,7 +7,7 @@ import { Text } from "@/components/SmartText";
 export default function Home() {
   const [title, setTitle] = useState("<strong>Smart</strong> Title Here");
   const [body, setBody] = useState(
-    "Pretext <div class='highlight'>side-steps</div> the need for DOM measurements (e.g. `getBoundingClientRect`, `offsetHeight`), which trigger layout reflow, one of the most <em>expensive</em> operations in the browser. \n\n<ul><li>First point</li><li>Second <strong>important</strong> point</li></ul>\n\nIt implements its own text measurement logic, using the browsers' own font engine as ground truth (very AI-friendly iteration method)."
+    "Pretext <span class='highlight'>side-steps</span> the need for DOM measurements (e.g. `getBoundingClientRect`, `offsetHeight`), which trigger layout reflow, one of the most <em>expensive</em> operations in the browser. \n\n<ul><li>First point</li><li>Second <strong>important</strong> point</li></ul>\n\nIt implements its own text measurement logic, using the browsers' own font engine as ground truth (very AI-friendly iteration method)."
   );
   
   const [baseFontSize, setBaseFontSize] = useState(32);
@@ -60,7 +60,7 @@ export default function Home() {
             </label>
             <div className="text-xs text-zinc-500 mt-4">
               <strong>Supported tags:</strong><br/>
-              &lt;strong&gt;, &lt;em&gt;, &lt;u&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;div class="highlight"&gt;
+              &lt;strong&gt;, &lt;em&gt;, &lt;u&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;span class="highlight"&gt;
             </div>
           </div>
         </div>

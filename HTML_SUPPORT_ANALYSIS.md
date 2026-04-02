@@ -55,7 +55,7 @@ To implement block splitting, we could no longer use `pretext`'s high-level `lay
 
 ## The Restricted Workaround Implemented
 
-Despite the limitations described above, a **restricted workaround** was implemented to support a specific subset of HTML tags (`<strong>`, `<em>`, `<u>`, `<ul>`, `<ol>`, `<li>`, `<div class="highlight">`).
+Despite the limitations described above, a **restricted workaround** was implemented to support a specific subset of HTML tags (`<strong>`, `<em>`, `<u>`, `<ul>`, `<ol>`, `<li>`, `<span class="highlight">`).
 
 This implementation is viable **ONLY under the strict assumption that users will wrap whole words in tags**. 
 

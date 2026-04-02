@@ -60,8 +60,8 @@ export function parseHTMLToBlocks(html: string): TextBlock[] {
       else if (tag === '</em>' || tag === '</i>') isItalic = false;
       else if (tag === '<u>') isUnderline = true;
       else if (tag === '</u>') isUnderline = false;
-      else if (tag === "<div class='highlight'>" || tag === '<div class="highlight">') isHighlight = true;
-      else if (tag === '</div>') isHighlight = false;
+      else if (tag === "<span class='highlight'>" || tag === '<span class="highlight">') isHighlight = true;
+      else if (tag === '</span>') isHighlight = false;
       else if (tag === '<ul>') { listType = 'ul'; listItemIndex = 0; }
       else if (tag === '</ul>') listType = undefined;
       else if (tag === '<ol>') { listType = 'ol'; listItemIndex = 0; }

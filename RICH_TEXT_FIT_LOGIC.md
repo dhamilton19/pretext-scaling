@@ -10,7 +10,7 @@ This engine relies heavily on a single core assumption to avoid complex hyphenat
 ## Supported Tags
 
 * Text formatting: `<strong>`, `<b>`, `<em>`, `<i>`, `<u>`
-* Custom styling: `<div class='highlight'>`
+* Custom styling: `<span class='highlight'>`
 * Lists: `<ul>`, `<ol>`, `<li>`
 
 ## Algorithm Flow
